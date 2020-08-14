@@ -3,8 +3,8 @@
 #include <Arduino.h>
 #include <Adafruit_NeoPixel.h>
 
-#define PIN        D5
-#define SWITCH     D6
+#define PIN        6 //D6
+#define SWITCH     5 //D5
 #define NUMPIXELS  20
 
 Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
